@@ -1,6 +1,7 @@
-import path from 'path';
+const path = require('path');
 
 module.exports = {
+  module: 'development',
   entry: path.resolve(__dirname, 'src', 'index.jsx'),
   output: {
     path: path.resolve(__dirname, 'dist'),
